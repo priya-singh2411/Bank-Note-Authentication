@@ -57,7 +57,10 @@ def predict_note_authentication():
     curtosis=request.args.get('curtosis')
     entropy=request.args.get('entropy')
     predict=classifier.predict([[variance,skewness,curtosis,entropy]])
-    return 'Predicted value is : ' +str(predict)
+    if predict[0]==0:
+      return 'Predicted value is : ' +str(predict) +' Note is not authenticate'
+    else:
+        return 'Predicted value is : ' +str(predict) +' Note is Authenticate'
 
 @app.route('/predict_file',methods=["POST"])
 def predict_note_file():
@@ -84,7 +87,7 @@ def predict_note_file():
 
 
 if __name__=='__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0',port=8000)
 
 #url to run the app : http://127.0.0.1:5000/apidocs/
 
