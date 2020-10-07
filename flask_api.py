@@ -19,8 +19,8 @@ Swagger(app)
 pickle_in=open('classifier.pkl','rb')
 classifier=pickle.load(pickle_in)
 
-@app.route('/')
-@app.route('/home')
+#@app.route('/')
+@app.route('/apidocs')
 def welcome_page():
     return '<h1> WELCOME TO THE HOMEPAGE </h1>'
 
