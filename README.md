@@ -1,7 +1,17 @@
 # Bank-Note-Authentication
-Bank Note Authentication - Machine Learning Project:
-Kaggle Dataset converted to a ML project 
-## Introduction:
-  <p>Genuine Dataset obtained from UCI ML Repository dataset. Data were extracted from images that were taken from genuine and forged banknote-like specimens. For digitization, an industrial camera usually used for print inspection was used. </p>
+## About:
+  <p>
+    Genuine Dataset obtained from UCI ML Repository dataset. Data were extracted from images that were taken from genuine and forged banknote-like specimens. For digitization, an     industrial camera usually used for print inspection was used. 
+    The objective is to predict whether the Note is genuine or not based upon the features. I have used Random Forest Classifier as the prediction model over the data provided by     Kaggle.
+    </p>
+    <p>
+    Tech Stack: Jupyter Lab, Anaconda, Python 3+, sklearn, RandoomForestClassifier, pandas, numpy, Dockers, Flask, Flasgger, Heroku for deployment.
 
-## Data Source: https://www.kaggle.com/ritesaluja/bank-note-authentication-uci-data
+
+   <span class="right">
+   <a href="https://banknoteauthentication-api.herokuapp.com/apidocs/ ">
+  <b>Project URL</b>
+     </span>
+    </a>
+
+   </p>
