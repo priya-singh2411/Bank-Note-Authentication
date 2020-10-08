@@ -5,8 +5,8 @@
     The objective is to predict whether the Note is genuine or not based upon the features. I have used Random Forest Classifier as the prediction model over the data provided by     Kaggle.
     </p>
     <p>
-    Tech Stack: Jupyter Lab, Anaconda, Python 3+, sklearn, RandoomForestClassifier, pandas, numpy, Dockers, Flask, Flasgger, Heroku for deployment.
-
+  <b>Tech Stack:</b> Jupyter Lab, Anaconda, Python 3+, sklearn, RandoomForestClassifier, pandas, numpy, Dockers, Flask, Flasgger, Heroku for deployment.
+  <br/>
 
    <span class="right">
    <a href="https://banknoteauthentication-api.herokuapp.com/apidocs/ ">
